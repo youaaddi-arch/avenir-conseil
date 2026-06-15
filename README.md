@@ -16,8 +16,9 @@ Sora + Inter. Aucune dépendance, aucun build — du HTML/CSS/JS natif.
 | Expertises | `project.html` · `change.html` · `training.html` · `operations.html` · `support.html` |
 | Digital Learning (edufactory) | `digital-learning.html` |
 | Fournisseur exclusif UGAP | `ugap.html` |
-| Catalogue formation | `catalogue.html` → `catia.html` · `3dexperience.html` |
+| Catalogue formation | `catalogue.html` → `catia.html` · `3dexperience.html` · `soft-skills.html` |
 | Fiches formation (Qualiopi) | `fiche-cv5-0xx.html` (×12) · `fiche-3dx-00x.html` (×8) |
+| Formations IT (piloté par Sanity) | `formations-it.html` + `formations-it.js` + `data/formations-it.json` + `sanity/` |
 | À propos | `a-propos.html` |
 | Nous rejoindre | `nous-rejoindre.html` |
 | Contact | `contact.html` |
