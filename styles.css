@@ -94,12 +94,23 @@ img, svg { display: block; max-width: 100%; }
 .brand__text span { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .brand__tag { font-family: "Inter", sans-serif; font-size: .58rem; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
 
-.nav { margin-left: auto; display: flex; gap: 26px; }
-.nav a { color: var(--ink-2); font-size: .95rem; font-weight: 500; position: relative; transition: color .2s; padding: 4px 0; }
-.nav a::after { content: ""; position: absolute; left: 0; bottom: -2px; width: 0; height: 2px; background: var(--gold-grad); transition: width .25s var(--ease); }
-.nav a:hover, .nav a[aria-current="page"] { color: var(--ink); }
-.nav a:hover::after, .nav a[aria-current="page"]::after { width: 100%; }
-.nav__cta { margin-left: 4px; }
+.nav { margin-left: auto; display: flex; gap: 4px; align-items: center; }
+.nav__item { position: relative; }
+.nav__link { display: inline-flex; align-items: center; gap: 6px; padding: 9px 12px; border-radius: 8px; color: var(--ink-2); font-size: .94rem; font-weight: 500; transition: color .2s, background .2s; }
+.nav__link:hover, .nav__item:hover > .nav__link, .nav__link[aria-current="page"] { color: var(--ink); }
+.nav__caret { width: 9px; height: 9px; opacity: .55; transition: transform .25s var(--ease); }
+.nav__item--menu:hover .nav__caret { transform: rotate(180deg); }
+.nav__item--menu::after { content: ""; position: absolute; top: 100%; left: 0; right: 0; height: 12px; }
+.nav__menu {
+  position: absolute; top: calc(100% + 10px); left: 0; min-width: 250px;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow);
+  padding: 8px; display: grid; gap: 2px; z-index: 70;
+  opacity: 0; visibility: hidden; transform: translateY(8px); transition: opacity .2s, transform .2s, visibility .2s;
+}
+.nav__item--menu:hover > .nav__menu, .nav__item--menu:focus-within > .nav__menu { opacity: 1; visibility: visible; transform: none; }
+.nav__menu a { display: block; padding: 10px 12px; border-radius: 9px; color: var(--ink-2); font-size: .9rem; line-height: 1.3; transition: background .2s, color .2s; }
+.nav__menu a:hover { background: var(--paper); color: var(--ink); }
+.nav__cta { margin-left: 6px; }
 
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; margin-left: auto; }
 .nav-toggle span { width: 24px; height: 2px; background: var(--ink); border-radius: 2px; transition: transform .3s, opacity .3s; }
@@ -395,15 +406,24 @@ img, svg { display: block; max-width: 100%; }
   .figures { grid-template-columns: repeat(2, 1fr); }
   .footer__inner { grid-template-columns: 1fr 1fr; }
 }
-@media (max-width: 880px) {
+@media (max-width: 992px) {
   .nav, .nav__cta { display: none; }
   .nav-toggle { display: flex; }
   .nav.is-open {
     display: flex; position: absolute; top: 78px; left: 0; right: 0; flex-direction: column; gap: 0;
-    background: rgba(255,255,255,.98); backdrop-filter: blur(16px); padding: 12px 24px 20px;
-    border-bottom: 1px solid var(--line); box-shadow: var(--shadow);
+    background: rgba(255,255,255,.98); backdrop-filter: blur(16px); padding: 10px 24px 22px;
+    border-bottom: 1px solid var(--line); box-shadow: var(--shadow); max-height: calc(100vh - 78px); overflow-y: auto;
   }
-  .nav.is-open a { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  .nav.is-open .nav__item { width: 100%; }
+  .nav.is-open .nav__link { padding: 14px 0; border-bottom: 1px solid var(--line); justify-content: space-between; }
+  .nav.is-open .nav__caret { display: none; }
+  .nav.is-open .nav__menu {
+    position: static; opacity: 1; visibility: visible; transform: none; box-shadow: none;
+    border: 0; border-bottom: 1px solid var(--line); border-radius: 0; padding: 4px 0 10px 14px;
+    min-width: auto; background: transparent;
+  }
+  .nav.is-open .nav__menu a { padding: 10px 0; color: var(--muted); }
+  .nav.is-open .nav__menu a:hover { background: transparent; color: var(--ink); }
 }
 @media (max-width: 980px) {
   .catalog-cards { grid-template-columns: 1fr; }
