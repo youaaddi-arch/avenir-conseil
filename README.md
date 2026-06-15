@@ -17,6 +17,7 @@ Sora + Inter. Aucune dépendance, aucun build — du HTML/CSS/JS natif.
 | Digital Learning (edufactory) | `digital-learning.html` |
 | Fournisseur exclusif UGAP | `ugap.html` |
 | Catalogue formation | `catalogue.html` → `catia.html` · `3dexperience.html` |
+| Fiches formation (Qualiopi) | `fiche-cv5-0xx.html` (×12) · `fiche-3dx-00x.html` (×8) |
 | À propos | `a-propos.html` |
 | Nous rejoindre | `nous-rejoindre.html` |
 | Contact | `contact.html` |
@@ -29,7 +30,10 @@ reveal, compteurs animés, repli des images, validation du formulaire).
 - Citation de la Directrice Générale, les 5 expertises détaillées (domaines + chiffres
   clés + **réalisations clients**), edufactory, référence **UGAP 2023–2026**.
 - Catalogues **CATIA V5** (12 formations) et **3DEXPERIENCE** (8 formations) extraits
-  des PDF officiels (références, durées, tarifs, modalités, accessibilité).
+  des PDF officiels. Chaque formation dispose d'une **fiche programme conforme
+  Qualiopi** (objectifs, public, prérequis, durée, tarif, programme détaillé,
+  modalités d'évaluation, moyens pédagogiques, délai d'accès, accessibilité PSH,
+  indicateurs de résultats) — imprimable.
 - Agences Paris / Lyon / Madrid et coordonnées réelles.
 
 ## 🚀 Aperçu en local

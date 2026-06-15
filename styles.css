@@ -329,6 +329,44 @@ img, svg { display: block; max-width: 100%; }
 .notice p { color: var(--ink-2); font-size: .95rem; }
 .notice strong { font-family: "Sora", sans-serif; }
 .dl-buttons { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 8px; }
+.course--link { cursor: pointer; text-decoration: none; }
+.course__more { flex: none; color: var(--gold-1); font-family: "Sora", sans-serif; font-weight: 600; font-size: .85rem; }
+
+/* ---------- Fiche formation (Qualiopi) ---------- */
+.fiche { display: grid; grid-template-columns: 1fr 330px; gap: 44px; align-items: start; }
+.fiche__block { margin-bottom: 36px; }
+.fiche__block:last-child { margin-bottom: 0; }
+.fiche__block h2 { font-size: 1.3rem; margin-bottom: 14px; }
+.bullets { list-style: none; display: grid; gap: 10px; }
+.bullets li { position: relative; padding-left: 22px; color: var(--ink-2); }
+.bullets li::before { content: ""; position: absolute; left: 0; top: 10px; width: 8px; height: 8px; border-radius: 2px; background: var(--gold-grad); }
+.prog-block { border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 12px; background: var(--bg); }
+.prog-block > strong { font-family: "Sora", sans-serif; display: block; margin-bottom: 8px; font-size: 1.02rem; }
+.prog-block ul { list-style: none; display: grid; gap: 6px; margin: 0; }
+.prog-block ul li { position: relative; padding-left: 18px; color: var(--ink-2); font-size: .94rem; }
+.prog-block ul li::before { content: "–"; position: absolute; left: 0; color: var(--gold-1); }
+.fiche__aside { position: sticky; top: 96px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); padding: 26px; box-shadow: var(--shadow-sm); }
+.fiche__aside h3 { font-size: .8rem; text-transform: uppercase; letter-spacing: .1em; color: var(--muted); margin-bottom: 8px; }
+.spec { list-style: none; display: grid; margin-bottom: 18px; }
+.spec li { display: flex; justify-content: space-between; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); font-size: .92rem; }
+.spec li:last-child { border-bottom: 0; }
+.spec li span { color: var(--muted); }
+.spec li strong { font-family: "Sora", sans-serif; text-align: right; }
+.spec li.price strong { background: var(--gold-grad); -webkit-background-clip: text; background-clip: text; color: transparent; font-size: 1.15rem; }
+.mentions { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+.mention { border: 1px solid var(--line); border-radius: 12px; padding: 20px 22px; background: var(--bg); }
+.mention h3 { font-size: 1rem; margin-bottom: 8px; }
+.mention p { color: var(--ink-2); font-size: .92rem; }
+.mention ul { list-style: none; display: grid; gap: 6px; }
+.mention ul li { position: relative; padding-left: 16px; color: var(--ink-2); font-size: .92rem; }
+.mention ul li::before { content: "•"; position: absolute; left: 0; color: var(--gold-1); }
+.mention a { color: var(--gold-1); }
+@media print {
+  .site-header, .site-footer, .nav-toggle, .fiche__aside .btn, .page-hero__bg, .breadcrumb { display: none !important; }
+  .page-hero { background: #fff; } .page-hero h1, .page-hero p, .page-hero .eyebrow { color: #000; }
+  .fiche { grid-template-columns: 1fr; } .fiche__aside { position: static; }
+  body { background: #fff; } .section { padding: 16px 0; }
+}
 
 /* ---------- Image fallback ---------- */
 .net-img.is-failed { background: linear-gradient(135deg, #1c1f27, #2c2f38 60%, #3a2f17); }
@@ -358,6 +396,9 @@ img, svg { display: block; max-width: 100%; }
 }
 @media (max-width: 980px) {
   .catalog-cards { grid-template-columns: 1fr; }
+  .fiche { grid-template-columns: 1fr; }
+  .fiche__aside { position: static; }
+  .mentions { grid-template-columns: 1fr; }
 }
 @media (max-width: 600px) {
   .exp-grid, .cases, .sectors, .agencies, .values, .domains, .contact, .form__grid, .courses { grid-template-columns: 1fr; }
