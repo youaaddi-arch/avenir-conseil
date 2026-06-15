@@ -1,6 +1,277 @@
 [
  {
   "_type": "formationIt",
+  "_id": "itcourse-prompt-engineering-ia-g-n-rative",
+  "title": "Prompt Engineering & IA générative",
+  "slug": {
+   "_type": "slug",
+   "current": "prompt-engineering-ia-g-n-rative"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Débutant",
+  "durationDays": 1,
+  "durationHours": 7,
+  "price": "690 €",
+  "isNew": true,
+  "summary": "Tirez parti des IA génératives (ChatGPT, Claude, Copilot) au quotidien grâce à des prompts efficaces et un usage responsable.",
+  "objectives": [
+   "Comprendre le fonctionnement et les usages de l'IA générative.",
+   "Rédiger des prompts efficaces et itératifs.",
+   "Adopter un usage responsable, conscient des limites et des risques."
+  ],
+  "audience": [
+   "Tous publics : métiers, encadrement, fonctions support."
+  ],
+  "prerequisites": [
+   "Aucun prérequis."
+  ],
+  "program": [
+   {
+    "module": "Comprendre l'IA générative",
+    "items": [
+     "Panorama et vocabulaire",
+     "Modèles de langage et génération",
+     "Cas d'usage par métier"
+    ]
+   },
+   {
+    "module": "L'art du prompt",
+    "items": [
+     "Structure d'un bon prompt",
+     "Techniques (rôle, contexte, exemples)",
+     "Itérer et affiner"
+    ]
+   },
+   {
+    "module": "Usages professionnels",
+    "items": [
+     "Rédaction et synthèse",
+     "Analyse et idéation",
+     "Création de supports"
+    ]
+   },
+   {
+    "module": "Vigilance & responsabilité",
+    "items": [
+     "Confidentialité et RGPD",
+     "Biais et hallucinations",
+     "Vérification et esprit critique"
+    ]
+   }
+  ],
+  "tools": [
+   "ChatGPT",
+   "Claude",
+   "Copilot"
+  ],
+  "order": 1
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-d-velopper-avec-l-ia-copilot-assistants",
+  "title": "Développer avec l'IA — Copilot & assistants",
+  "slug": {
+   "_type": "slug",
+   "current": "d-velopper-avec-l-ia-copilot-assistants"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Intermédiaire",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 390 €",
+  "isNew": true,
+  "summary": "Accélérez le développement logiciel avec les assistants IA (GitHub Copilot) tout en gardant la maîtrise de la qualité et de la sécurité.",
+  "objectives": [
+   "Intégrer un assistant IA dans son environnement de développement.",
+   "Générer, refactorer et documenter du code avec l'IA.",
+   "Revoir et sécuriser le code généré."
+  ],
+  "audience": [
+   "Développeurs et lead techniques."
+  ],
+  "prerequisites": [
+   "Pratique d'un langage de programmation."
+  ],
+  "program": [
+   {
+    "module": "Assistants de code",
+    "items": [
+     "Panorama des outils",
+     "GitHub Copilot",
+     "Intégration à l'IDE"
+    ]
+   },
+   {
+    "module": "Productivité",
+    "items": [
+     "Génération de code et de tests",
+     "Refactoring assisté",
+     "Documentation"
+    ]
+   },
+   {
+    "module": "Qualité",
+    "items": [
+     "Revue du code généré",
+     "Limites et pièges",
+     "Bonnes pratiques de prompt en dev"
+    ]
+   },
+   {
+    "module": "Sécurité",
+    "items": [
+     "Confidentialité du code",
+     "Dépendances et licences",
+     "Garde-fous"
+    ]
+   }
+  ],
+  "tools": [
+   "GitHub Copilot",
+   "VS Code"
+  ],
+  "order": 2
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-concevoir-des-applications-llm-rag-agents",
+  "title": "Concevoir des applications LLM (RAG & agents)",
+  "slug": {
+   "_type": "slug",
+   "current": "concevoir-des-applications-llm-rag-agents"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Avancé",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "2 290 €",
+  "isNew": true,
+  "summary": "Construisez des applications basées sur des LLM : RAG, agents et intégration via API, de la conception à l'industrialisation.",
+  "objectives": [
+   "Comprendre l'architecture des applications LLM.",
+   "Mettre en place un RAG (Retrieval-Augmented Generation).",
+   "Orchestrer des agents et des outils."
+  ],
+  "audience": [
+   "Développeurs et data scientists."
+  ],
+  "prerequisites": [
+   "Bases de Python."
+  ],
+  "program": [
+   {
+    "module": "Fondamentaux LLM",
+    "items": [
+     "Modèles, tokens et embeddings",
+     "Appels d'API et paramètres",
+     "Évaluation et coûts"
+    ]
+   },
+   {
+    "module": "RAG",
+    "items": [
+     "Vectorisation et bases vectorielles",
+     "Recherche sémantique",
+     "Orchestration de la génération"
+    ]
+   },
+   {
+    "module": "Agents & outils",
+    "items": [
+     "Function calling",
+     "Agents et raisonnement",
+     "Orchestration multi-étapes"
+    ]
+   },
+   {
+    "module": "Industrialisation",
+    "items": [
+     "Exposition via API",
+     "Observabilité et évaluation",
+     "Sécurité et garde-fous"
+    ]
+   }
+  ],
+  "tools": [
+   "Python",
+   "LangChain",
+   "API LLM"
+  ],
+  "order": 3
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-ia-g-n-rative-pour-la-data-l-analyse",
+  "title": "IA générative pour la data & l'analyse",
+  "slug": {
+   "_type": "slug",
+   "current": "ia-g-n-rative-pour-la-data-l-analyse"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Intermédiaire",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 390 €",
+  "isNew": true,
+  "summary": "Exploitez l'IA générative pour explorer, préparer et analyser vos données plus vite, en gardant la maîtrise de la qualité.",
+  "objectives": [
+   "Assister la préparation et l'exploration des données avec l'IA.",
+   "Générer analyses, requêtes et synthèses.",
+   "Encadrer l'usage (qualité, gouvernance, RGPD)."
+  ],
+  "audience": [
+   "Analystes, contrôleurs de gestion, métiers de la data."
+  ],
+  "prerequisites": [
+   "Bases de la data ou du SQL."
+  ],
+  "program": [
+   {
+    "module": "IA & data",
+    "items": [
+     "Cas d'usage",
+     "Outils et intégrations",
+     "Limites"
+    ]
+   },
+   {
+    "module": "Préparation assistée",
+    "items": [
+     "Nettoyage guidé",
+     "Génération de requêtes SQL",
+     "Documentation des données"
+    ]
+   },
+   {
+    "module": "Analyse & restitution",
+    "items": [
+     "Synthèses automatiques",
+     "Suggestions de visualisations",
+     "Narration des résultats"
+    ]
+   },
+   {
+    "module": "Gouvernance",
+    "items": [
+     "Qualité et vérification",
+     "RGPD et confidentialité",
+     "Bonnes pratiques"
+    ]
+   }
+  ],
+  "tools": [
+   "Python",
+   "ChatGPT",
+   "Power BI"
+  ],
+  "order": 4
+ },
+ {
+  "_type": "formationIt",
   "_id": "itcourse-javascript-moderne-es6",
   "title": "JavaScript moderne (ES6+)",
   "slug": {
@@ -74,7 +345,7 @@
    "ESLint",
    "Jest"
   ],
-  "order": 1
+  "order": 5
  },
  {
   "_type": "formationIt",
@@ -151,7 +422,7 @@
    "React Router",
    "React Query"
   ],
-  "order": 2
+  "order": 6
  },
  {
   "_type": "formationIt",
@@ -228,7 +499,7 @@
    "Kubernetes",
    "Helm"
   ],
-  "order": 3
+  "order": 7
  },
  {
   "_type": "formationIt",
@@ -304,7 +575,7 @@
    "Git",
    "Docker"
   ],
-  "order": 4
+  "order": 8
  },
  {
   "_type": "formationIt",
@@ -379,7 +650,7 @@
    "OWASP ZAP",
    "Burp Suite"
   ],
-  "order": 5
+  "order": 9
  },
  {
   "_type": "formationIt",
@@ -456,7 +727,7 @@
    "Nmap",
    "Burp Suite"
   ],
-  "order": 6
+  "order": 10
  },
  {
   "_type": "formationIt",
@@ -532,7 +803,7 @@
    "Power Query",
    "DAX"
   ],
-  "order": 7
+  "order": 11
  },
  {
   "_type": "formationIt",
@@ -549,7 +820,7 @@
   "durationHours": 35,
   "price": "2 950 €",
   "isNew": true,
-  "summary": "Construisez, évaluez et déployez des modèles de Machine Learning avec l'écosystème Python.",
+  "summary": "Construisez, évaluez et déployez des modèles de Machine Learning avec Python, jusqu'aux fondements des modèles modernes (transformers, LLM).",
   "objectives": [
    "Préparer et explorer des jeux de données.",
    "Entraîner et évaluer des modèles supervisés et non supervisés.",
@@ -609,7 +880,7 @@
    "scikit-learn",
    "Jupyter"
   ],
-  "order": 8
+  "order": 12
  },
  {
   "_type": "formationIt",
@@ -684,7 +955,7 @@
    "PostgreSQL",
    "MySQL"
   ],
-  "order": 9
+  "order": 13
  },
  {
   "_type": "formationIt",
@@ -761,7 +1032,7 @@
    "systemd",
    "Ansible"
   ],
-  "order": 10
+  "order": 14
  },
  {
   "_type": "formationIt",
@@ -836,7 +1107,7 @@
    "Wireshark",
    "Cisco Packet Tracer"
   ],
-  "order": 11
+  "order": 15
  },
  {
   "_type": "formationIt",
@@ -911,6 +1182,6 @@
    "Jira",
    "Klaxoon"
   ],
-  "order": 12
+  "order": 16
  }
 ]

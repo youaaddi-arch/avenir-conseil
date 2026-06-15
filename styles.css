@@ -437,7 +437,9 @@ img, svg { display: block; max-width: 100%; }
 .it-card__cat { font-family: "Sora", sans-serif; font-size: .68rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: .32em .7em; border-radius: 999px; color: #fff; }
 .it-card__level { font-size: .8rem; color: var(--muted); }
 .it-card h3 { font-size: 1.18rem; }
-.it-card__sum { color: var(--ink-2); font-size: .92rem; flex: 1; }
+.it-card__sum { color: var(--ink-2); font-size: .92rem; flex: 1; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.course-card { text-decoration: none; color: inherit; }
+.course-card .it-card__btn { pointer-events: none; }
 .it-card__tools { display: flex; flex-wrap: wrap; gap: 6px; }
 .it-card__tools span { font-size: .72rem; padding: .28em .6em; border-radius: 6px; background: var(--paper); border: 1px solid var(--line); color: var(--ink-2); }
 .it-card__meta { display: flex; gap: 16px; font-size: .84rem; color: var(--muted); font-family: "Sora", sans-serif; }
