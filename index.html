@@ -3,334 +3,217 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Avenir Conseil — Le spécialiste du déploiement des SI Métiers &amp; PLM</title>
-  <meta name="description" content="Avenir Conseil accompagne les industriels dans le déploiement de leurs SI Métiers et solutions PLM. 5 expertises interconnectées, +300 collaborateurs, 5 implantations. Membre du groupe ALTEN." />
-  <meta name="theme-color" content="#070b18" />
-
+  <title>Avenir Conseil — Le spécialiste du déploiement des SI Métiers & PLM</title>
+  <meta name="description" content="Avenir Conseil accompagne les industriels dans le déploiement de leurs SI Métiers et solutions PLM. 5 expertises, +300 collaborateurs. Membre du groupe ALTEN." />
+  <meta name="theme-color" content="#14161b" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Avenir Conseil — Spécialiste du déploiement des SI Métiers & PLM" />
-  <meta property="og:description" content="De la stratégie au déploiement opérationnel, nous sécurisons vos transformations numériques et culturelles, sur tout le cycle de vie de vos produits." />
-
+  <meta property="og:title" content="Avenir Conseil — Le spécialiste du déploiement des SI Métiers & PLM" />
+  <meta property="og:description" content="Avenir Conseil accompagne les industriels dans le déploiement de leurs SI Métiers et solutions PLM. 5 expertises, +300 collaborateurs. Membre du groupe ALTEN." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg-orbs" aria-hidden="true">
-    <span class="orb orb--1"></span>
-    <span class="orb orb--2"></span>
-    <span class="orb orb--3"></span>
-    <span class="grid-overlay"></span>
-  </div>
-
-  <!-- Header -->
   <header class="site-header" id="top">
     <div class="container header__inner">
-      <a class="brand" href="#top" aria-label="Avenir Conseil, accueil">
+      <a class="brand" href="index.html" aria-label="Avenir Conseil, accueil">
         <span class="brand__mark" aria-hidden="true">
-          <svg viewBox="0 0 32 32" width="26" height="26" fill="none">
-            <path d="M16 2 30 27H2L16 2Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
-            <path d="M16 12 23 24H9L16 12Z" fill="currentColor"/>
+          <svg viewBox="0 0 34 30" width="30" height="27" fill="none">
+            <path d="M17 2 32 28H22.5L17 17.5 11.5 28H2L17 2Z" fill="url(#agold)"/>
+            <path d="M9.5 7.5C13 4 21 4 24.5 7.5" stroke="#16181b" stroke-width="1.6" stroke-linecap="round"/>
+            <circle cx="24.8" cy="7.2" r="1.7" fill="url(#agold)"/>
+            <defs><linearGradient id="agold" x1="2" y1="2" x2="32" y2="28" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#8a6224"/><stop offset="0.5" stop-color="#c0974b"/><stop offset="1" stop-color="#e6cd8a"/>
+            </linearGradient></defs>
           </svg>
         </span>
-        <span class="brand__text">Avenir<span>Conseil</span></span>
+        <span class="brand__lock">
+          <span class="brand__text">Avenir<span>Conseil</span></span>
+          <span class="brand__tag">An ALTEN Company</span>
+        </span>
       </a>
-
       <nav class="nav" aria-label="Navigation principale">
-        <a href="#offre">Notre offre</a>
-        <a href="#digital-learning">Digital Learning</a>
-        <a href="#secteurs">Secteurs</a>
-        <a href="#chiffres">Le groupe</a>
-        <a href="#agences">Agences</a>
-        <a href="#contact">Contact</a>
+        <a href="offre.html">Notre offre</a>
+        <a href="digital-learning.html">Digital Learning</a>
+        <a href="catalogue.html">Catalogue formation</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="nous-rejoindre.html">Nous rejoindre</a>
+        <a href="contact.html">Contact</a>
       </nav>
-
-      <a href="#contact" class="btn btn--primary btn--sm nav__cta">Confiez-nous votre projet</a>
-
-      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <a href="contact.html" class="btn btn--primary btn--sm nav__cta">Confiez-nous votre projet</a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </header>
-
   <main>
-    <!-- Hero -->
     <section class="hero">
-      <div class="container hero__inner">
-        <div class="hero__copy">
-          <p class="eyebrow reveal">Déploiement des SI Métiers · PLM · MES</p>
-          <h1 class="reveal">Le lien entre <span class="grad-text">l'IT</span>, <span class="grad-text">l'Ingénierie</span> et le <span class="grad-text">Manufacturing</span>.</h1>
-          <p class="hero__lead reveal">Spécialiste du déploiement des SI Métiers, Avenir Conseil accompagne les organisations dans leurs transformations numérique et culturelle, pour améliorer leur efficacité opérationnelle sur tout le cycle de vie de leurs produits.</p>
-          <div class="hero__actions reveal">
-            <a href="#contact" class="btn btn--primary">Confiez-nous votre projet</a>
-            <a href="#offre" class="btn btn--ghost">Découvrir nos 5 expertises</a>
-          </div>
-          <ul class="hero__badges reveal" aria-label="Points clés">
-            <li>Depuis 1986</li>
-            <li>Groupe ALTEN</li>
-            <li>+300 collaborateurs</li>
-            <li>5 implantations</li>
-          </ul>
-        </div>
-
-        <div class="hero__visual reveal" aria-hidden="true">
-          <div class="glass-card hero-card">
-            <div class="hero-card__row">
-              <span class="dot dot--g"></span><span class="dot dot--y"></span><span class="dot dot--r"></span>
-              <span class="hero-card__tag">Cycle de vie produit</span>
-            </div>
-            <div class="lifecycle">
-              <span>Conception</span><span>Industrialisation</span><span>Production</span><span>Support</span>
-            </div>
-            <div class="hero-card__bars">
-              <i style="--h:42%"></i><i style="--h:66%"></i><i style="--h:54%"></i>
-              <i style="--h:80%"></i><i style="--h:62%"></i><i style="--h:96%"></i>
-            </div>
-            <p class="hero-card__meta">Adoption des nouveaux processus <strong>+38%</strong></p>
-          </div>
-          <figure class="quote-badge glass-card">
-            <blockquote>« Nous sommes le lien entre le monde de l'IT &amp; celui de l'Ingénierie et du Manufacturing. »</blockquote>
-            <figcaption>Nathalie Héroux-Ambolet — Directrice Générale</figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-
-    <!-- Trust strip -->
-    <section class="trust">
-      <div class="container trust__inner">
-        <p>Des références fortes dans l'industrie exigeante</p>
-        <div class="trust__tags">
-          <span>Automobile</span><span>Énergie</span><span>Santé</span><span>Industrie</span><span>Secteur public</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Notre offre — expertise explorer -->
-    <section class="section" id="offre">
+      <div class="hero__bg"><img class="net-img" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1800&q=70" data-seed="ac-hero" width="1800" height="1000" alt="Industrie et ingénierie" loading="lazy"></div>
       <div class="container">
-        <header class="section__head reveal">
+        <div class="hero__inner">
+          <p class="eyebrow">Déploiement des SI Métiers · PLM · MES</p>
+          <h1>Le lien entre l'<span class="gold-text">IT</span>, l'<span class="gold-text">Ingénierie</span> et le <span class="gold-text">Manufacturing</span>.</h1>
+          <p class="hero__lead">Spécialiste du déploiement des SI Métiers, Avenir Conseil accompagne les organisations dans leurs transformations numérique et culturelle, pour améliorer leur efficacité opérationnelle sur tout le cycle de vie de leurs produits.</p>
+          <div class="hero__actions">
+            <a href="contact.html" class="btn btn--gold">Confiez-nous votre projet</a>
+            <a href="offre.html" class="btn btn--outline-light">Découvrir nos 5 expertises</a>
+          </div>
+          <div class="hero__stats">
+            <div><strong><span class="gold-text" data-count="1986">0</span></strong><span>année de création</span></div>
+            <div><strong><span class="gold-text" data-count="300" data-suffix="+">0</span></strong><span>collaborateurs</span></div>
+            <div><strong><span class="gold-text" data-count="5">0</span></strong><span>implantations</span></div>
+            <div><strong><span class="gold-text">ALTEN</span></strong><span>membre du groupe</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--paper">
+      <div class="container">
+        <figure class="quote reveal">
+          <blockquote>« Nous sommes le lien entre le monde de l'IT &amp; celui de l'<span class="gold-text">Ingénierie</span> et du <span class="gold-text">Manufacturing</span>. »</blockquote>
+          <figcaption><strong>Nathalie Héroux-Ambolet</strong> — Directrice Générale d'Avenir Conseil</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head reveal">
           <p class="eyebrow">Notre offre</p>
           <h2>Une offre bout en bout, 5 domaines d'expertises interconnectés</h2>
-          <p class="section__lead">De la définition stratégique au déploiement opérationnel des solutions, jusqu'à la formation des équipes et le support technique : nous couvrons tout ou partie de votre projet de transformation numérique.</p>
-        </header>
-
-        <div class="explorer reveal">
-          <div class="explorer__tabs" role="tablist" aria-label="Domaines d'expertise">
-            <button class="tab is-active" role="tab" aria-selected="true" data-tab="project"><span>01</span>Project</button>
-            <button class="tab" role="tab" aria-selected="false" data-tab="change"><span>02</span>Change</button>
-            <button class="tab" role="tab" aria-selected="false" data-tab="training"><span>03</span>Training</button>
-            <button class="tab" role="tab" aria-selected="false" data-tab="operations"><span>04</span>Operations</button>
-            <button class="tab" role="tab" aria-selected="false" data-tab="support"><span>05</span>Support</button>
-          </div>
-          <div class="explorer__panel glass-card" id="explorer-panel" role="tabpanel">
-            <!-- Filled by script.js -->
-          </div>
+          <p class="lead">De la définition stratégique au déploiement opérationnel, jusqu'à la formation des équipes et le support technique : nous couvrons tout ou partie de votre projet de transformation numérique.</p>
+        </div>
+        <div class="exp-grid">
+        <a class="exp-card reveal" href="project.html">
+          <span class="exp-card__num">01</span>
+          <h3>Project</h3>
+          <p>Cadrage stratégique, gouvernance et architecture des projets de transformation.</p>
+          <span class="exp-card__more">Découvrir</span>
+        </a>
+        <a class="exp-card reveal" href="change.html">
+          <span class="exp-card__num">02</span>
+          <h3>Change</h3>
+          <p>Conduite du changement et adoption des nouveaux usages.</p>
+          <span class="exp-card__more">Découvrir</span>
+        </a>
+        <a class="exp-card reveal" href="training.html">
+          <span class="exp-card__num">03</span>
+          <h3>Training</h3>
+          <p>Ingénierie de formation et Digital Learning sur mesure.</p>
+          <span class="exp-card__more">Découvrir</span>
+        </a>
+        <a class="exp-card reveal" href="operations.html">
+          <span class="exp-card__num">04</span>
+          <h3>Operations</h3>
+          <p>Mise en œuvre métier : maquette numérique et gestion de configuration.</p>
+          <span class="exp-card__more">Découvrir</span>
+        </a>
+        <a class="exp-card reveal" href="support.html">
+          <span class="exp-card__num">05</span>
+          <h3>Support</h3>
+          <p>Support de proximité et centres de services spécialisés.</p>
+          <span class="exp-card__more">Découvrir</span>
+        </a>
         </div>
       </div>
     </section>
 
-    <!-- Approche -->
-    <section class="section section--alt" id="approche">
-      <div class="container approche">
-        <div class="approche__copy reveal">
+    <section class="section section--paper">
+      <div class="container split">
+        <div class="split__media reveal"><img class="net-img" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=70" data-seed="ac-approach" width="1000" height="720" alt="Notre approche" loading="lazy"></div>
+        <div class="split__copy reveal">
           <p class="eyebrow">Notre approche</p>
           <h2>De la stratégie au terrain, sans rupture de chaîne</h2>
-          <p class="section__lead">Nos experts, issus de l'ingénierie comme du numérique, interviennent au cœur de vos organisations pour faire de chaque déploiement un succès — et transformer vos défis en opportunités.</p>
+          <p class="lead" style="margin-bottom:24px">Nos experts, issus de l'ingénierie comme du numérique, interviennent au cœur de vos organisations pour transformer vos défis en opportunités.</p>
           <ul class="steps">
-            <li><span>1</span><div><strong>Cadrage &amp; stratégie</strong><p>Gouvernance, analyse des processus métier et architecture cible alignées sur vos enjeux.</p></div></li>
-            <li><span>2</span><div><strong>Déploiement &amp; conduite du changement</strong><p>Mise en œuvre des solutions PLM/MES, projets pilotes et accompagnement des utilisateurs.</p></div></li>
-            <li><span>3</span><div><strong>Adoption &amp; pérennisation</strong><p>Formation des équipes, support de proximité et amélioration continue.</p></div></li>
+            <li><span class="n">1</span><div><strong>Cadrage &amp; stratégie</strong><p>Gouvernance, analyse des processus et architecture cible.</p></div></li>
+            <li><span class="n">2</span><div><strong>Déploiement &amp; changement</strong><p>Mise en œuvre des solutions PLM / MES et conduite du changement.</p></div></li>
+            <li><span class="n">3</span><div><strong>Adoption &amp; pérennisation</strong><p>Formation, support de proximité et amélioration continue.</p></div></li>
           </ul>
-        </div>
-        <div class="approche__visual reveal" aria-hidden="true">
-          <div class="glass-card stat-card">
-            <p class="stat-card__k">360°</p>
-            <p class="stat-card__l">de couverture sur le cycle de vie produit</p>
-            <hr/>
-            <div class="mini-stats">
-              <div><strong>+20 000</strong><span>utilisateurs accompagnés</span></div>
-              <div><strong>5</strong><span>pôles d'expertise</span></div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
 
-    <!-- edufactory / Digital Learning -->
-    <section class="section section--learning" id="digital-learning">
-      <div class="container learning">
-        <div class="learning__copy reveal">
+    <section class="section section--ink">
+      <div class="container split">
+        <div class="split__copy reveal">
           <p class="eyebrow">Digital Learning · edufactory</p>
           <h2>La formation digitale sur mesure, au service de l'adoption</h2>
-          <p class="section__lead">Depuis 2024, notre agence <strong>edufactory</strong>, pionnière de la formation digitale sur mesure en France, enrichit notre expertise Training. Nous engageons vos collaborateurs grâce à des expériences d'apprentissage uniques, ludiques et à fort impact mémoriel.</p>
-          <ul class="chips">
-            <li>E-learning</li><li>Serious game</li><li>Motion design</li><li>Réalité virtuelle</li><li>Micro-learning</li><li>Classe virtuelle</li>
-          </ul>
-          <p class="learning__ugap">⭐ Fournisseur exclusif référencé par l'<strong>UGAP</strong> sur le marché des formations digitales sur mesure (2023–2026).</p>
+          <p class="lead" style="margin-bottom:20px">Depuis 2024, notre agence edufactory, pionnière de la formation digitale sur mesure en France, enrichit notre expertise Training avec des expériences d'apprentissage uniques et à fort impact mémoriel.</p>
+          <ul class="chips" style="margin-bottom:24px"><li>E-learning</li><li>Serious game</li><li>Motion design</li><li>Réalité virtuelle</li><li>Micro-learning</li></ul>
+          <a href="digital-learning.html" class="btn btn--gold">Découvrir edufactory</a>
         </div>
-        <div class="learning__figures reveal">
-          <div class="lfig"><span class="lfig__n" data-count="1.5" data-suffix=" M">0</span><p>apprenants formés sur +10 ans</p></div>
-          <div class="lfig"><span class="lfig__n" data-count="800" data-suffix="">0</span><p>modules créés</p></div>
-          <div class="lfig"><span class="lfig__n" data-count="600" data-suffix="">0</span><p>thématiques traitées</p></div>
-          <div class="lfig"><span class="lfig__n" data-count="150000" data-suffix="">0</span><p>apprenants / an en distanciel</p></div>
-        </div>
+        <div class="split__media reveal"><img class="net-img" src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1000&q=70" data-seed="ac-dl" width="1000" height="720" alt="Digital Learning" loading="lazy"></div>
       </div>
     </section>
 
-    <!-- Secteurs -->
-    <section class="section" id="secteurs">
+    <section class="section">
       <div class="container">
-        <header class="section__head reveal">
-          <p class="eyebrow">Secteurs</p>
-          <h2>Une expertise éprouvée auprès des grands industriels</h2>
-        </header>
+        <div class="section__head reveal"><p class="eyebrow">Secteurs</p><h2>Une expertise éprouvée auprès des grands industriels</h2></div>
         <div class="sectors">
-          <article class="sector reveal">
-            <div class="sector__icon">🚗</div>
-            <h3>Automobile</h3>
-            <p>Maquette numérique, gestion de configuration et approche Software Defined Vehicle pour les constructeurs.</p>
-          </article>
-          <article class="sector reveal">
-            <div class="sector__icon">⚡</div>
-            <h3>Énergie &amp; Industrie</h3>
-            <p>Maîtrise de la donnée technique et jumeau numérique pour des infrastructures critiques et durables.</p>
-          </article>
-          <article class="sector reveal">
-            <div class="sector__icon">🩺</div>
-            <h3>Santé</h3>
-            <p>Pilotage et conduite du changement des systèmes d'information patient au sein des groupes hospitaliers.</p>
-          </article>
+          <article class="sector reveal"><div class="sector__media"><img class="net-img" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=720&q=70" data-seed="ac-auto" width="720" height="500" alt="Automobile" loading="lazy"></div><div class="sector__body"><h3>Automobile</h3><p>Maquette numérique, gestion de configuration et approche Software Defined Vehicle.</p></div></article>
+          <article class="sector reveal"><div class="sector__media"><img class="net-img" src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=720&q=70" data-seed="ac-energy" width="720" height="500" alt="Énergie" loading="lazy"></div><div class="sector__body"><h3>Énergie &amp; Industrie</h3><p>Maîtrise de la donnée technique et jumeau numérique pour des infrastructures critiques.</p></div></article>
+          <article class="sector reveal"><div class="sector__media"><img class="net-img" src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=720&q=70" data-seed="ac-health" width="720" height="500" alt="Santé" loading="lazy"></div><div class="sector__body"><h3>Santé</h3><p>Conduite du changement des systèmes d'information patient au sein des groupes hospitaliers.</p></div></article>
         </div>
       </div>
     </section>
 
-    <!-- Chiffres clés -->
-    <section class="section section--dark" id="chiffres">
+    <section class="section section--paper">
       <div class="container">
-        <header class="section__head reveal">
-          <p class="eyebrow">Avenir Conseil en chiffres</p>
-          <h2>Près de 40 ans d'expertise, une dimension internationale</h2>
-          <p class="section__lead">Fondée en 1986 puis intégrée au groupe ALTEN en 2007, Avenir Conseil déploie efficacement les systèmes d'information Métiers et solutions PLM de ses clients.</p>
-        </header>
+        <div class="section__head section__head--center reveal"><p class="eyebrow eyebrow--center">Avenir Conseil en chiffres</p><h2>Près de 40 ans d'expertise</h2></div>
         <div class="figures">
           <div class="figure reveal"><span class="figure__num" data-count="5">0</span><p>domaines d'expertise</p></div>
           <div class="figure reveal"><span class="figure__num" data-count="300" data-suffix="+">0</span><p>collaborateurs</p></div>
           <div class="figure reveal"><span class="figure__num" data-count="5">0</span><p>implantations</p></div>
           <div class="figure reveal"><span class="figure__num" data-count="35" data-suffix="+">0</span><p>années d'expérience</p></div>
         </div>
-        <p class="figures__note reveal">France · Espagne — membre du groupe ALTEN.</p>
       </div>
     </section>
 
-    <!-- Agences -->
-    <section class="section" id="agences">
+    <section class="section">
       <div class="container">
-        <header class="section__head reveal">
-          <p class="eyebrow">Nos agences</p>
-          <h2>Proches de vous, partout où vos projets l'exigent</h2>
-        </header>
-        <div class="agencies">
-          <article class="agency reveal">
-            <h3>Avenir Conseil Paris <span class="agency__hq">Siège</span></h3>
-            <p>65 avenue Édouard Vaillant<br/>92773 Boulogne-Billancourt — France</p>
-            <a href="tel:+33146088200" class="agency__tel">+33 (0)1 46 08 82 00</a>
-          </article>
-          <article class="agency reveal">
-            <h3>Avenir Conseil Rhône-Alpes</h3>
-            <p>Immeuble Docksite — 51 rue des Docks<br/>69009 Lyon — France</p>
-            <a href="tel:+33437442200" class="agency__tel">+33 (0)4 37 44 22 00</a>
-          </article>
-          <article class="agency reveal">
-            <h3>Avenir Conseil España <span class="agency__hq agency__hq--alt">Delivery center</span></h3>
-            <p>Parque Empresarial Cristalia<br/>Vía de los Poblados 3, Edificio 5, Planta 2<br/>28033 Madrid — Espagne</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="contact glass-card reveal">
-          <div class="contact__copy">
-            <p class="eyebrow">Contact</p>
-            <h2>Confiez-nous votre projet !</h2>
-            <p class="section__lead">Parce que chaque besoin est unique, nous vous proposons un accompagnement personnalisé. Décrivez votre projet : un expert vous recontacte rapidement.</p>
-            <ul class="contact__details">
-              <li><strong>Siège</strong> 65 avenue Édouard Vaillant, 92100 Boulogne-Billancourt</li>
-              <li><strong>Téléphone</strong> <a href="tel:+33146088200">+33 (0)1 46 08 82 00</a></li>
-              <li><strong>Formation</strong> <a href="mailto:planif-oper-formation@avenir-conseil.fr">planif-oper-formation@avenir-conseil.fr</a></li>
-            </ul>
-          </div>
-          <form class="contact__form" novalidate>
-            <div class="form__grid">
-              <div class="field">
-                <label for="name">Nom *</label>
-                <input id="name" name="name" type="text" autocomplete="family-name" required />
-              </div>
-              <div class="field">
-                <label for="firstname">Prénom *</label>
-                <input id="firstname" name="firstname" type="text" autocomplete="given-name" required />
-              </div>
-            </div>
-            <div class="field">
-              <label for="company">Nom de l'entreprise *</label>
-              <input id="company" name="company" type="text" autocomplete="organization" required />
-            </div>
-            <div class="form__grid">
-              <div class="field">
-                <label for="email">Email *</label>
-                <input id="email" name="email" type="email" autocomplete="email" required />
-              </div>
-              <div class="field">
-                <label for="phone">Téléphone *</label>
-                <input id="phone" name="phone" type="tel" autocomplete="tel" required />
-              </div>
-            </div>
-            <div class="field">
-              <label for="message">Votre message *</label>
-              <textarea id="message" name="message" rows="3" required></textarea>
-            </div>
-            <button type="submit" class="btn btn--primary btn--block">Envoyer un message</button>
-            <p class="form__status" role="status" aria-live="polite"></p>
-          </form>
+        <div class="cta-band reveal">
+          <h2>Confiez-nous votre projet</h2>
+          <p>Décrivez votre projet PLM, MES ou SI Métier : un expert vous recontacte rapidement pour un accompagnement personnalisé.</p>
+          <a href="contact.html" class="btn btn--gold">Nous contacter</a>
         </div>
       </div>
     </section>
   </main>
-
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container footer__inner">
       <div class="footer__brand">
         <span class="brand__text">Avenir<span>Conseil</span></span>
-        <p>Le spécialiste du déploiement des SI Métiers et des solutions PLM pour l'industrie. Membre du groupe ALTEN.</p>
+        <span class="brand__tag">An ALTEN Company</span>
+        <p>Le spécialiste du déploiement des SI Métiers et des solutions PLM pour l'industrie.</p>
       </div>
-      <nav class="footer__col" aria-label="Offre">
+      <nav class="footer__col" aria-label="Notre offre">
         <h4>Notre offre</h4>
-        <a href="#offre">Project</a>
-        <a href="#offre">Change</a>
-        <a href="#offre">Training</a>
-        <a href="#offre">Operations</a>
-        <a href="#offre">Support</a>
+        <a href="project.html">Project</a>
+        <a href="change.html">Change</a>
+        <a href="training.html">Training</a>
+        <a href="operations.html">Operations</a>
+        <a href="support.html">Support</a>
       </nav>
       <nav class="footer__col" aria-label="Entreprise">
         <h4>Entreprise</h4>
-        <a href="#digital-learning">Digital Learning</a>
-        <a href="#secteurs">Secteurs</a>
-        <a href="#chiffres">Le groupe</a>
-        <a href="#agences">Agences</a>
-        <a href="#contact">Contact</a>
+        <a href="digital-learning.html">Digital Learning</a>
+        <a href="catalogue.html">Catalogue formation</a>
+        <a href="a-propos.html">À propos</a>
+        <a href="nous-rejoindre.html">Nous rejoindre</a>
+        <a href="contact.html">Contact</a>
       </nav>
+      <div class="footer__col footer__contact">
+        <h4>Contact</h4>
+        <p>65 avenue Édouard Vaillant<br>92100 Boulogne-Billancourt</p>
+        <a href="tel:+33146088200">+33 (0)1 46 08 82 00</a>
+      </div>
     </div>
     <div class="container footer__bottom">
-      <p>© <span id="year"></span> Avenir Conseil — Tous droits réservés. <span class="footer__sep">·</span> 402 460 174 R.C.S. Nanterre</p>
+      <p>© <span id="year"></span> Avenir Conseil — Tous droits réservés. · 402 460 174 R.C.S. Nanterre</p>
       <p>Membre du groupe ALTEN</p>
     </div>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
