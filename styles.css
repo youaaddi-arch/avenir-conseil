@@ -389,7 +389,8 @@ img, svg { display: block; max-width: 100%; }
   border: 1px solid var(--line); transition: transform .3s var(--ease), box-shadow .3s, border-color .3s;
 }
 .logo-tile:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: rgba(192,151,75,.5); }
-.logo-img { height: 32px; width: auto; max-width: 80%; object-fit: contain; opacity: .82; }
+.logo-img { height: 38px; width: auto; max-width: 100%; object-fit: contain; filter: grayscale(1); opacity: .78; transition: filter .25s, opacity .25s; }
+.logo-tile:hover .logo-img { filter: none; opacity: 1; }
 .logo-name { font-family: "Sora", sans-serif; font-weight: 600; font-size: .82rem; color: var(--ink-2); text-align: center; letter-spacing: .01em; }
 
 /* ---------- Badge NEW ---------- */
