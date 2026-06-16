@@ -484,6 +484,9 @@ img, svg { display: block; max-width: 100%; }
 .usecase__icon { font-size: 1.7rem; margin-bottom: 12px; }
 .usecase h3 { font-size: 1.15rem; margin-bottom: 8px; }
 .usecase p { color: var(--ink-2); font-size: .94rem; }
+.usecase--link { text-decoration: none; color: inherit; display: flex; flex-direction: column; }
+.usecase--link p { flex: 1; }
+.usecase--link .exp-card__more { margin-top: 12px; }
 .mini-list { list-style: none; display: grid; gap: 5px; margin: 6px 0 14px; }
 .mini-list li { position: relative; padding-left: 16px; font-size: .88rem; color: var(--muted); }
 .mini-list li::before { content: "›"; position: absolute; left: 0; color: var(--gold-1); font-weight: 700; }
