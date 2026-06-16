@@ -2,7 +2,7 @@
  {
   "_type": "formationIt",
   "_id": "itcourse-prompt-engineering-ia-g-n-rative",
-  "title": "Prompt Engineering & IA générative",
+  "title": "Prompt engineering & IA générative",
   "slug": {
    "_type": "slug",
    "current": "prompt-engineering-ia-g-n-rative"
@@ -278,7 +278,7 @@
    "_type": "slug",
    "current": "javascript-moderne-es6"
   },
-  "category": "Développement Web",
+  "category": "Développement web",
   "categoryColor": "#5b8cff",
   "level": "Intermédiaire",
   "durationDays": 3,
@@ -355,7 +355,7 @@
    "_type": "slug",
    "current": "react-d-velopper-des-applications-web"
   },
-  "category": "Développement Web",
+  "category": "Développement web",
   "categoryColor": "#5b8cff",
   "level": "Intermédiaire",
   "durationDays": 4,
@@ -737,7 +737,7 @@
    "_type": "slug",
    "current": "power-bi-concevoir-des-tableaux-de-bord"
   },
-  "category": "Data, IA & Analytics",
+  "category": "Data, IA & analytics",
   "categoryColor": "#a87bff",
   "level": "Débutant",
   "durationDays": 2,
@@ -808,19 +808,19 @@
  {
   "_type": "formationIt",
   "_id": "itcourse-machine-learning-avec-python",
-  "title": "Machine Learning avec Python",
+  "title": "Machine learning avec Python",
   "slug": {
    "_type": "slug",
    "current": "machine-learning-avec-python"
   },
-  "category": "Data, IA & Analytics",
+  "category": "Data, IA & analytics",
   "categoryColor": "#a87bff",
   "level": "Avancé",
   "durationDays": 5,
   "durationHours": 35,
   "price": "2 950 €",
   "isNew": true,
-  "summary": "Construisez, évaluez et déployez des modèles de Machine Learning avec Python, jusqu'aux fondements des modèles modernes (transformers, LLM).",
+  "summary": "Construisez, évaluez et déployez des modèles de Machine learning avec Python, jusqu'aux fondements des modèles modernes (transformers, LLM).",
   "objectives": [
    "Préparer et explorer des jeux de données.",
    "Entraîner et évaluer des modèles supervisés et non supervisés.",
@@ -890,7 +890,7 @@
    "_type": "slug",
    "current": "sql-bases-de-donn-es-relationnelles"
   },
-  "category": "Data, IA & Analytics",
+  "category": "Data, IA & analytics",
   "categoryColor": "#a87bff",
   "level": "Débutant",
   "durationDays": 3,
@@ -965,7 +965,7 @@
    "_type": "slug",
    "current": "administration-linux"
   },
-  "category": "Réseaux & Systèmes",
+  "category": "Réseaux & systèmes",
   "categoryColor": "#37b27a",
   "level": "Intermédiaire",
   "durationDays": 4,
@@ -1042,7 +1042,7 @@
    "_type": "slug",
    "current": "r-seaux-tcp-ip-s-curit"
   },
-  "category": "Réseaux & Systèmes",
+  "category": "Réseaux & systèmes",
   "categoryColor": "#37b27a",
   "level": "Débutant",
   "durationDays": 3,
@@ -1117,7 +1117,7 @@
    "_type": "slug",
    "current": "scrum-m-thodes-agiles"
   },
-  "category": "Gestion de projet & Agile",
+  "category": "Gestion de projet & agile",
   "categoryColor": "#e0a83e",
   "level": "Débutant",
   "durationDays": 2,

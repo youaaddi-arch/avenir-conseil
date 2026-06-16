@@ -18,12 +18,13 @@ export const formationIt = defineType({
       type: 'string',
       options: {
         list: [
-          'Développement Web',
+          'IA & IA générative',
+          'Développement web',
           'Cloud & DevOps',
           'Cybersécurité',
-          'Data, IA & Analytics',
-          'Réseaux & Systèmes',
-          'Gestion de projet & Agile',
+          'Data, IA & analytics',
+          'Réseaux & systèmes',
+          'Gestion de projet & agile',
         ],
       },
     }),
