@@ -1,0 +1,1187 @@
+[
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-prompt-engineering-ia-g-n-rative",
+  "title": "Prompt engineering & IA générative",
+  "slug": {
+   "_type": "slug",
+   "current": "prompt-engineering-ia-g-n-rative"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Débutant",
+  "durationDays": 1,
+  "durationHours": 7,
+  "price": "690 €",
+  "isNew": true,
+  "summary": "Tirez parti des IA génératives (ChatGPT, Claude, Copilot) au quotidien grâce à des prompts efficaces et un usage responsable.",
+  "objectives": [
+   "Comprendre le fonctionnement et les usages de l'IA générative.",
+   "Rédiger des prompts efficaces et itératifs.",
+   "Adopter un usage responsable, conscient des limites et des risques."
+  ],
+  "audience": [
+   "Tous publics : métiers, encadrement, fonctions support."
+  ],
+  "prerequisites": [
+   "Aucun prérequis."
+  ],
+  "program": [
+   {
+    "module": "Comprendre l'IA générative",
+    "items": [
+     "Panorama et vocabulaire",
+     "Modèles de langage et génération",
+     "Cas d'usage par métier"
+    ]
+   },
+   {
+    "module": "L'art du prompt",
+    "items": [
+     "Structure d'un bon prompt",
+     "Techniques (rôle, contexte, exemples)",
+     "Itérer et affiner"
+    ]
+   },
+   {
+    "module": "Usages professionnels",
+    "items": [
+     "Rédaction et synthèse",
+     "Analyse et idéation",
+     "Création de supports"
+    ]
+   },
+   {
+    "module": "Vigilance & responsabilité",
+    "items": [
+     "Confidentialité et RGPD",
+     "Biais et hallucinations",
+     "Vérification et esprit critique"
+    ]
+   }
+  ],
+  "tools": [
+   "ChatGPT",
+   "Claude",
+   "Copilot"
+  ],
+  "order": 1
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-d-velopper-avec-l-ia-copilot-assistants",
+  "title": "Développer avec l'IA — Copilot & assistants",
+  "slug": {
+   "_type": "slug",
+   "current": "d-velopper-avec-l-ia-copilot-assistants"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Intermédiaire",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 390 €",
+  "isNew": true,
+  "summary": "Accélérez le développement logiciel avec les assistants IA (GitHub Copilot) tout en gardant la maîtrise de la qualité et de la sécurité.",
+  "objectives": [
+   "Intégrer un assistant IA dans son environnement de développement.",
+   "Générer, refactorer et documenter du code avec l'IA.",
+   "Revoir et sécuriser le code généré."
+  ],
+  "audience": [
+   "Développeurs et lead techniques."
+  ],
+  "prerequisites": [
+   "Pratique d'un langage de programmation."
+  ],
+  "program": [
+   {
+    "module": "Assistants de code",
+    "items": [
+     "Panorama des outils",
+     "GitHub Copilot",
+     "Intégration à l'IDE"
+    ]
+   },
+   {
+    "module": "Productivité",
+    "items": [
+     "Génération de code et de tests",
+     "Refactoring assisté",
+     "Documentation"
+    ]
+   },
+   {
+    "module": "Qualité",
+    "items": [
+     "Revue du code généré",
+     "Limites et pièges",
+     "Bonnes pratiques de prompt en dev"
+    ]
+   },
+   {
+    "module": "Sécurité",
+    "items": [
+     "Confidentialité du code",
+     "Dépendances et licences",
+     "Garde-fous"
+    ]
+   }
+  ],
+  "tools": [
+   "GitHub Copilot",
+   "VS Code"
+  ],
+  "order": 2
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-concevoir-des-applications-llm-rag-agents",
+  "title": "Concevoir des applications LLM (RAG & agents)",
+  "slug": {
+   "_type": "slug",
+   "current": "concevoir-des-applications-llm-rag-agents"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Avancé",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "2 290 €",
+  "isNew": true,
+  "summary": "Construisez des applications basées sur des LLM : RAG, agents et intégration via API, de la conception à l'industrialisation.",
+  "objectives": [
+   "Comprendre l'architecture des applications LLM.",
+   "Mettre en place un RAG (Retrieval-Augmented Generation).",
+   "Orchestrer des agents et des outils."
+  ],
+  "audience": [
+   "Développeurs et data scientists."
+  ],
+  "prerequisites": [
+   "Bases de Python."
+  ],
+  "program": [
+   {
+    "module": "Fondamentaux LLM",
+    "items": [
+     "Modèles, tokens et embeddings",
+     "Appels d'API et paramètres",
+     "Évaluation et coûts"
+    ]
+   },
+   {
+    "module": "RAG",
+    "items": [
+     "Vectorisation et bases vectorielles",
+     "Recherche sémantique",
+     "Orchestration de la génération"
+    ]
+   },
+   {
+    "module": "Agents & outils",
+    "items": [
+     "Function calling",
+     "Agents et raisonnement",
+     "Orchestration multi-étapes"
+    ]
+   },
+   {
+    "module": "Industrialisation",
+    "items": [
+     "Exposition via API",
+     "Observabilité et évaluation",
+     "Sécurité et garde-fous"
+    ]
+   }
+  ],
+  "tools": [
+   "Python",
+   "LangChain",
+   "API LLM"
+  ],
+  "order": 3
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-ia-g-n-rative-pour-la-data-l-analyse",
+  "title": "IA générative pour la data & l'analyse",
+  "slug": {
+   "_type": "slug",
+   "current": "ia-g-n-rative-pour-la-data-l-analyse"
+  },
+  "category": "IA & IA générative",
+  "categoryColor": "#ff7a45",
+  "level": "Intermédiaire",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 390 €",
+  "isNew": true,
+  "summary": "Exploitez l'IA générative pour explorer, préparer et analyser vos données plus vite, en gardant la maîtrise de la qualité.",
+  "objectives": [
+   "Assister la préparation et l'exploration des données avec l'IA.",
+   "Générer analyses, requêtes et synthèses.",
+   "Encadrer l'usage (qualité, gouvernance, RGPD)."
+  ],
+  "audience": [
+   "Analystes, contrôleurs de gestion, métiers de la data."
+  ],
+  "prerequisites": [
+   "Bases de la data ou du SQL."
+  ],
+  "program": [
+   {
+    "module": "IA & data",
+    "items": [
+     "Cas d'usage",
+     "Outils et intégrations",
+     "Limites"
+    ]
+   },
+   {
+    "module": "Préparation assistée",
+    "items": [
+     "Nettoyage guidé",
+     "Génération de requêtes SQL",
+     "Documentation des données"
+    ]
+   },
+   {
+    "module": "Analyse & restitution",
+    "items": [
+     "Synthèses automatiques",
+     "Suggestions de visualisations",
+     "Narration des résultats"
+    ]
+   },
+   {
+    "module": "Gouvernance",
+    "items": [
+     "Qualité et vérification",
+     "RGPD et confidentialité",
+     "Bonnes pratiques"
+    ]
+   }
+  ],
+  "tools": [
+   "Python",
+   "ChatGPT",
+   "Power BI"
+  ],
+  "order": 4
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-javascript-moderne-es6",
+  "title": "JavaScript moderne (ES6+)",
+  "slug": {
+   "_type": "slug",
+   "current": "javascript-moderne-es6"
+  },
+  "category": "Développement web",
+  "categoryColor": "#5b8cff",
+  "level": "Intermédiaire",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "1 590 €",
+  "isNew": false,
+  "summary": "Maîtrisez les apports d'ECMAScript moderne pour écrire un JavaScript robuste, modulaire et maintenable.",
+  "objectives": [
+   "Exploiter les nouveautés ES6+ (let/const, arrow functions, destructuring, modules).",
+   "Manipuler l'asynchrone avec les promesses et async/await.",
+   "Structurer un code modulaire et outillé (bundlers, lint)."
+  ],
+  "audience": [
+   "Développeurs front-end et full-stack."
+  ],
+  "prerequisites": [
+   "Bases du JavaScript et du HTML/CSS."
+  ],
+  "program": [
+   {
+    "module": "Rappels & nouveautés du langage",
+    "items": [
+     "Portée, let/const, template literals",
+     "Fonctions fléchées et this",
+     "Destructuring, spread/rest"
+    ]
+   },
+   {
+    "module": "Programmation asynchrone",
+    "items": [
+     "Callbacks et promesses",
+     "async / await",
+     "Gestion des erreurs et Fetch API"
+    ]
+   },
+   {
+    "module": "Modules & organisation",
+    "items": [
+     "Modules ES (import/export)",
+     "Bundlers (Vite, Webpack)",
+     "Bonnes pratiques de structuration"
+    ]
+   },
+   {
+    "module": "Manipulation avancée",
+    "items": [
+     "Itérateurs et générateurs",
+     "Map, Set, WeakMap",
+     "Programmation fonctionnelle (map/filter/reduce)"
+    ]
+   },
+   {
+    "module": "Qualité & outillage",
+    "items": [
+     "ESLint et Prettier",
+     "Tests unitaires (Jest)",
+     "Débogage navigateur"
+    ]
+   }
+  ],
+  "tools": [
+   "Node.js",
+   "Vite",
+   "ESLint",
+   "Jest"
+  ],
+  "order": 5
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-react-d-velopper-des-applications-web",
+  "title": "React — Développer des applications web",
+  "slug": {
+   "_type": "slug",
+   "current": "react-d-velopper-des-applications-web"
+  },
+  "category": "Développement web",
+  "categoryColor": "#5b8cff",
+  "level": "Intermédiaire",
+  "durationDays": 4,
+  "durationHours": 28,
+  "price": "2 190 €",
+  "isNew": true,
+  "summary": "Concevez des interfaces modernes et réactives avec React, les hooks et l'écosystème associé.",
+  "objectives": [
+   "Construire des composants réutilisables avec JSX et les hooks.",
+   "Gérer l'état local et global d'une application.",
+   "Mettre en place le routage et la consommation d'API."
+  ],
+  "audience": [
+   "Développeurs front-end."
+  ],
+  "prerequisites": [
+   "JavaScript moderne (ES6+)."
+  ],
+  "program": [
+   {
+    "module": "Fondamentaux React",
+    "items": [
+     "JSX et composants",
+     "Props et state",
+     "Rendu conditionnel et listes"
+    ]
+   },
+   {
+    "module": "Les Hooks",
+    "items": [
+     "useState, useEffect",
+     "useContext, useReducer",
+     "Hooks personnalisés"
+    ]
+   },
+   {
+    "module": "Routage & navigation",
+    "items": [
+     "React Router",
+     "Routes imbriquées et paramètres",
+     "Lazy loading"
+    ]
+   },
+   {
+    "module": "Gestion d'état",
+    "items": [
+     "Context API",
+     "Introduction à Redux Toolkit",
+     "Data fetching (React Query)"
+    ]
+   },
+   {
+    "module": "Mise en production",
+    "items": [
+     "Optimisation des performances",
+     "Tests de composants",
+     "Build et déploiement"
+    ]
+   }
+  ],
+  "tools": [
+   "React",
+   "Vite",
+   "React Router",
+   "React Query"
+  ],
+  "order": 6
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-docker-kubernetes",
+  "title": "Docker & Kubernetes",
+  "slug": {
+   "_type": "slug",
+   "current": "docker-kubernetes"
+  },
+  "category": "Cloud & DevOps",
+  "categoryColor": "#23c4c0",
+  "level": "Intermédiaire",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "1 890 €",
+  "isNew": true,
+  "summary": "Conteneurisez vos applications avec Docker et orchestrez-les à l'échelle avec Kubernetes.",
+  "objectives": [
+   "Créer, construire et publier des images Docker.",
+   "Orchestrer des conteneurs avec Kubernetes.",
+   "Déployer et exposer des applications conteneurisées."
+  ],
+  "audience": [
+   "Développeurs, ops et administrateurs systèmes."
+  ],
+  "prerequisites": [
+   "Bases Linux et ligne de commande."
+  ],
+  "program": [
+   {
+    "module": "Conteneurs Docker",
+    "items": [
+     "Images, conteneurs, registries",
+     "Dockerfile et bonnes pratiques",
+     "Volumes et réseaux"
+    ]
+   },
+   {
+    "module": "Docker Compose",
+    "items": [
+     "Applications multi-conteneurs",
+     "Variables et secrets",
+     "Environnements de dev"
+    ]
+   },
+   {
+    "module": "Concepts Kubernetes",
+    "items": [
+     "Pods, ReplicaSets, Deployments",
+     "Services et networking",
+     "ConfigMaps et Secrets"
+    ]
+   },
+   {
+    "module": "Déploiement & scaling",
+    "items": [
+     "Rolling updates",
+     "Auto-scaling (HPA)",
+     "Helm charts"
+    ]
+   },
+   {
+    "module": "Exploitation",
+    "items": [
+     "Logs et monitoring",
+     "Stratégies de résilience",
+     "Sécurité des conteneurs"
+    ]
+   }
+  ],
+  "tools": [
+   "Docker",
+   "Docker Compose",
+   "Kubernetes",
+   "Helm"
+  ],
+  "order": 7
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-ci-cd-avec-gitlab",
+  "title": "CI/CD avec GitLab",
+  "slug": {
+   "_type": "slug",
+   "current": "ci-cd-avec-gitlab"
+  },
+  "category": "Cloud & DevOps",
+  "categoryColor": "#23c4c0",
+  "level": "Intermédiaire",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 290 €",
+  "isNew": false,
+  "summary": "Automatisez l'intégration et le déploiement continus de vos projets avec GitLab CI/CD.",
+  "objectives": [
+   "Concevoir des pipelines CI/CD efficaces.",
+   "Automatiser tests, build et déploiement.",
+   "Sécuriser et optimiser vos chaînes."
+  ],
+  "audience": [
+   "Développeurs et DevOps."
+  ],
+  "prerequisites": [
+   "Bases de Git."
+  ],
+  "program": [
+   {
+    "module": "Fondamentaux GitLab",
+    "items": [
+     "Workflow Git et merge requests",
+     "Runners et architecture",
+     "Premier pipeline .gitlab-ci.yml"
+    ]
+   },
+   {
+    "module": "Construire le pipeline",
+    "items": [
+     "Stages et jobs",
+     "Artifacts et cache",
+     "Variables et environnements"
+    ]
+   },
+   {
+    "module": "Tests & qualité",
+    "items": [
+     "Tests automatisés",
+     "Analyse statique (SAST)",
+     "Couverture de code"
+    ]
+   },
+   {
+    "module": "Déploiement continu",
+    "items": [
+     "Environnements et review apps",
+     "Déploiement vers le cloud",
+     "Stratégies (blue/green, canary)"
+    ]
+   },
+   {
+    "module": "Optimisation",
+    "items": [
+     "Pipelines parallèles",
+     "Templates réutilisables",
+     "Bonnes pratiques de sécurité"
+    ]
+   }
+  ],
+  "tools": [
+   "GitLab CI/CD",
+   "Git",
+   "Docker"
+  ],
+  "order": 8
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-cybers-curit-s-curiser-ses-applications",
+  "title": "Cybersécurité : sécuriser ses applications",
+  "slug": {
+   "_type": "slug",
+   "current": "cybers-curit-s-curiser-ses-applications"
+  },
+  "category": "Cybersécurité",
+  "categoryColor": "#ec6a55",
+  "level": "Intermédiaire",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "1 890 €",
+  "isNew": false,
+  "summary": "Intégrez la sécurité dans le cycle de développement et protégez vos applications des principales failles.",
+  "objectives": [
+   "Comprendre les vulnérabilités du Top 10 OWASP.",
+   "Mettre en œuvre des pratiques de développement sécurisé.",
+   "Tester et durcir une application."
+  ],
+  "audience": [
+   "Développeurs, lead techniques, architectes."
+  ],
+  "prerequisites": [
+   "Expérience du développement web."
+  ],
+  "program": [
+   {
+    "module": "Panorama des menaces",
+    "items": [
+     "Surface d'attaque",
+     "Top 10 OWASP",
+     "Modélisation des menaces"
+    ]
+   },
+   {
+    "module": "Failles fréquentes",
+    "items": [
+     "Injection (SQL, XSS)",
+     "Authentification et sessions",
+     "Contrôle d'accès"
+    ]
+   },
+   {
+    "module": "Développement sécurisé",
+    "items": [
+     "Validation des entrées",
+     "Gestion des secrets",
+     "Chiffrement et hachage"
+    ]
+   },
+   {
+    "module": "Sécurité de la chaîne",
+    "items": [
+     "Dépendances et SCA",
+     "Sécurité des API",
+     "Headers et configuration"
+    ]
+   },
+   {
+    "module": "Tester & durcir",
+    "items": [
+     "Tests de sécurité (DAST)",
+     "Revue de code sécurité",
+     "Plan de remédiation"
+    ]
+   }
+  ],
+  "tools": [
+   "OWASP ZAP",
+   "Burp Suite"
+  ],
+  "order": 9
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-hacking-thique-tests-d-intrusion",
+  "title": "Hacking éthique & tests d'intrusion",
+  "slug": {
+   "_type": "slug",
+   "current": "hacking-thique-tests-d-intrusion"
+  },
+  "category": "Cybersécurité",
+  "categoryColor": "#ec6a55",
+  "level": "Avancé",
+  "durationDays": 5,
+  "durationHours": 35,
+  "price": "2 950 €",
+  "isNew": true,
+  "summary": "Adoptez la posture de l'attaquant pour identifier et exploiter les vulnérabilités, en environnement contrôlé et légal.",
+  "objectives": [
+   "Conduire un test d'intrusion méthodique.",
+   "Exploiter des vulnérabilités réseau, web et système.",
+   "Restituer un rapport d'audit exploitable."
+  ],
+  "audience": [
+   "Pentesters, RSSI, administrateurs sécurité."
+  ],
+  "prerequisites": [
+   "Bonnes connaissances réseau et systèmes."
+  ],
+  "program": [
+   {
+    "module": "Cadre & méthodologie",
+    "items": [
+     "Cadre légal et éthique",
+     "Méthodologies (PTES, OWASP)",
+     "Reconnaissance et OSINT"
+    ]
+   },
+   {
+    "module": "Cartographie & scan",
+    "items": [
+     "Énumération réseau",
+     "Scan de vulnérabilités",
+     "Analyse des services"
+    ]
+   },
+   {
+    "module": "Exploitation",
+    "items": [
+     "Exploitation web",
+     "Exploitation système",
+     "Élévation de privilèges"
+    ]
+   },
+   {
+    "module": "Post-exploitation",
+    "items": [
+     "Mouvement latéral",
+     "Persistance",
+     "Exfiltration simulée"
+    ]
+   },
+   {
+    "module": "Restitution",
+    "items": [
+     "Scoring des risques",
+     "Rédaction du rapport",
+     "Recommandations et remédiation"
+    ]
+   }
+  ],
+  "tools": [
+   "Kali Linux",
+   "Metasploit",
+   "Nmap",
+   "Burp Suite"
+  ],
+  "order": 10
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-power-bi-concevoir-des-tableaux-de-bord",
+  "title": "Power BI — Concevoir des tableaux de bord",
+  "slug": {
+   "_type": "slug",
+   "current": "power-bi-concevoir-des-tableaux-de-bord"
+  },
+  "category": "Data, IA & analytics",
+  "categoryColor": "#a87bff",
+  "level": "Débutant",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 290 €",
+  "isNew": true,
+  "summary": "Transformez vos données en tableaux de bord interactifs et partagez vos analyses en self-service.",
+  "objectives": [
+   "Connecter et préparer des sources de données.",
+   "Créer des modèles et des mesures DAX.",
+   "Concevoir des rapports interactifs et les publier."
+  ],
+  "audience": [
+   "Analystes, contrôleurs de gestion, métiers de la data."
+  ],
+  "prerequisites": [
+   "Aisance avec Excel."
+  ],
+  "program": [
+   {
+    "module": "Connexion aux données",
+    "items": [
+     "Sources et connecteurs",
+     "Power Query et transformation",
+     "Nettoyage des données"
+    ]
+   },
+   {
+    "module": "Modélisation",
+    "items": [
+     "Relations et schéma en étoile",
+     "Mesures et colonnes",
+     "Introduction au DAX"
+    ]
+   },
+   {
+    "module": "Visualisation",
+    "items": [
+     "Choisir le bon visuel",
+     "Filtres et segments",
+     "Mise en page et thèmes"
+    ]
+   },
+   {
+    "module": "Interactivité",
+    "items": [
+     "Drill-down et drill-through",
+     "Signets et infobulles",
+     "Paramètres"
+    ]
+   },
+   {
+    "module": "Partage & gouvernance",
+    "items": [
+     "Publier sur le service",
+     "Actualisation des données",
+     "Sécurité et rôles"
+    ]
+   }
+  ],
+  "tools": [
+   "Power BI Desktop",
+   "Power Query",
+   "DAX"
+  ],
+  "order": 11
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-machine-learning-avec-python",
+  "title": "Machine learning avec Python",
+  "slug": {
+   "_type": "slug",
+   "current": "machine-learning-avec-python"
+  },
+  "category": "Data, IA & analytics",
+  "categoryColor": "#a87bff",
+  "level": "Avancé",
+  "durationDays": 5,
+  "durationHours": 35,
+  "price": "2 950 €",
+  "isNew": true,
+  "summary": "Construisez, évaluez et déployez des modèles de Machine learning avec Python, jusqu'aux fondements des modèles modernes (transformers, LLM).",
+  "objectives": [
+   "Préparer et explorer des jeux de données.",
+   "Entraîner et évaluer des modèles supervisés et non supervisés.",
+   "Mettre un modèle en production."
+  ],
+  "audience": [
+   "Data analysts, développeurs, data scientists juniors."
+  ],
+  "prerequisites": [
+   "Bases de Python et de statistiques."
+  ],
+  "program": [
+   {
+    "module": "Écosystème data Python",
+    "items": [
+     "NumPy et Pandas",
+     "Visualisation (Matplotlib, Seaborn)",
+     "Préparation des données"
+    ]
+   },
+   {
+    "module": "Apprentissage supervisé",
+    "items": [
+     "Régression",
+     "Classification",
+     "Évaluation et métriques"
+    ]
+   },
+   {
+    "module": "Apprentissage non supervisé",
+    "items": [
+     "Clustering",
+     "Réduction de dimension",
+     "Détection d'anomalies"
+    ]
+   },
+   {
+    "module": "Aller plus loin",
+    "items": [
+     "Pipelines scikit-learn",
+     "Optimisation des hyperparamètres",
+     "Introduction au Deep Learning"
+    ]
+   },
+   {
+    "module": "Industrialisation",
+    "items": [
+     "Sérialisation des modèles",
+     "Exposition via API",
+     "Bonnes pratiques MLOps"
+    ]
+   }
+  ],
+  "tools": [
+   "Python",
+   "Pandas",
+   "scikit-learn",
+   "Jupyter"
+  ],
+  "order": 12
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-sql-bases-de-donn-es-relationnelles",
+  "title": "SQL & bases de données relationnelles",
+  "slug": {
+   "_type": "slug",
+   "current": "sql-bases-de-donn-es-relationnelles"
+  },
+  "category": "Data, IA & analytics",
+  "categoryColor": "#a87bff",
+  "level": "Débutant",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "1 590 €",
+  "isNew": false,
+  "summary": "Interrogez et modélisez des bases de données relationnelles avec le langage SQL.",
+  "objectives": [
+   "Écrire des requêtes SQL du simple au complexe.",
+   "Modéliser un schéma relationnel.",
+   "Optimiser les requêtes."
+  ],
+  "audience": [
+   "Développeurs, analystes, administrateurs de données."
+  ],
+  "prerequisites": [
+   "Aucun prérequis technique particulier."
+  ],
+  "program": [
+   {
+    "module": "Fondamentaux",
+    "items": [
+     "Modèle relationnel",
+     "SELECT, WHERE, ORDER BY",
+     "Fonctions et agrégats"
+    ]
+   },
+   {
+    "module": "Requêtes multi-tables",
+    "items": [
+     "Jointures",
+     "Sous-requêtes",
+     "Unions"
+    ]
+   },
+   {
+    "module": "Modélisation",
+    "items": [
+     "Clés et contraintes",
+     "Normalisation",
+     "Index"
+    ]
+   },
+   {
+    "module": "Manipulation",
+    "items": [
+     "INSERT, UPDATE, DELETE",
+     "Transactions",
+     "Vues"
+    ]
+   },
+   {
+    "module": "Performance",
+    "items": [
+     "Plans d'exécution",
+     "Optimisation des requêtes",
+     "Bonnes pratiques"
+    ]
+   }
+  ],
+  "tools": [
+   "PostgreSQL",
+   "MySQL"
+  ],
+  "order": 13
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-administration-linux",
+  "title": "Administration Linux",
+  "slug": {
+   "_type": "slug",
+   "current": "administration-linux"
+  },
+  "category": "Réseaux & systèmes",
+  "categoryColor": "#37b27a",
+  "level": "Intermédiaire",
+  "durationDays": 4,
+  "durationHours": 28,
+  "price": "2 190 €",
+  "isNew": false,
+  "summary": "Administrez des serveurs Linux : configuration, services, sécurité et automatisation.",
+  "objectives": [
+   "Maîtriser la ligne de commande et la gestion des fichiers.",
+   "Administrer utilisateurs, services et réseau.",
+   "Automatiser et sécuriser un serveur."
+  ],
+  "audience": [
+   "Administrateurs systèmes, DevOps, développeurs."
+  ],
+  "prerequisites": [
+   "Bases de l'informatique."
+  ],
+  "program": [
+   {
+    "module": "Bases du système",
+    "items": [
+     "Arborescence et fichiers",
+     "Utilisateurs et droits",
+     "Processus"
+    ]
+   },
+   {
+    "module": "Shell & scripts",
+    "items": [
+     "Commandes essentielles",
+     "Redirections et pipes",
+     "Scripts Bash"
+    ]
+   },
+   {
+    "module": "Services & réseau",
+    "items": [
+     "Gestion des paquets",
+     "systemd et services",
+     "Configuration réseau"
+    ]
+   },
+   {
+    "module": "Sécurité",
+    "items": [
+     "Pare-feu (iptables/nftables)",
+     "SSH et durcissement",
+     "Logs et audit"
+    ]
+   },
+   {
+    "module": "Automatisation",
+    "items": [
+     "Tâches planifiées (cron)",
+     "Sauvegardes",
+     "Introduction à Ansible"
+    ]
+   }
+  ],
+  "tools": [
+   "Linux",
+   "Bash",
+   "systemd",
+   "Ansible"
+  ],
+  "order": 14
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-r-seaux-tcp-ip-s-curit",
+  "title": "Réseaux TCP/IP & sécurité",
+  "slug": {
+   "_type": "slug",
+   "current": "r-seaux-tcp-ip-s-curit"
+  },
+  "category": "Réseaux & systèmes",
+  "categoryColor": "#37b27a",
+  "level": "Débutant",
+  "durationDays": 3,
+  "durationHours": 21,
+  "price": "1 590 €",
+  "isNew": false,
+  "summary": "Comprenez le fonctionnement des réseaux TCP/IP et les fondamentaux de leur sécurisation.",
+  "objectives": [
+   "Comprendre les modèles OSI et TCP/IP.",
+   "Configurer adressage et routage.",
+   "Identifier les bases de la sécurité réseau."
+  ],
+  "audience": [
+   "Techniciens, administrateurs débutants, développeurs."
+  ],
+  "prerequisites": [
+   "Bases de l'informatique."
+  ],
+  "program": [
+   {
+    "module": "Modèles & protocoles",
+    "items": [
+     "OSI et TCP/IP",
+     "Encapsulation",
+     "Protocoles clés (IP, TCP, UDP)"
+    ]
+   },
+   {
+    "module": "Adressage",
+    "items": [
+     "IPv4 et masques",
+     "Sous-réseaux (subnetting)",
+     "Introduction à IPv6"
+    ]
+   },
+   {
+    "module": "Routage & commutation",
+    "items": [
+     "Commutation Ethernet/VLAN",
+     "Routage statique et dynamique",
+     "NAT et DHCP"
+    ]
+   },
+   {
+    "module": "Services réseau",
+    "items": [
+     "DNS",
+     "HTTP/HTTPS",
+     "Outils de diagnostic"
+    ]
+   },
+   {
+    "module": "Sécurité réseau",
+    "items": [
+     "Pare-feu et filtrage",
+     "VPN",
+     "Bonnes pratiques"
+    ]
+   }
+  ],
+  "tools": [
+   "Wireshark",
+   "Cisco Packet Tracer"
+  ],
+  "order": 15
+ },
+ {
+  "_type": "formationIt",
+  "_id": "itcourse-scrum-m-thodes-agiles",
+  "title": "Scrum & méthodes agiles",
+  "slug": {
+   "_type": "slug",
+   "current": "scrum-m-thodes-agiles"
+  },
+  "category": "Gestion de projet & agile",
+  "categoryColor": "#e0a83e",
+  "level": "Débutant",
+  "durationDays": 2,
+  "durationHours": 14,
+  "price": "1 290 €",
+  "isNew": false,
+  "summary": "Adoptez l'agilité et le framework Scrum pour livrer de la valeur de façon itérative.",
+  "objectives": [
+   "Comprendre les valeurs et principes de l'agilité.",
+   "Maîtriser les rôles, événements et artefacts Scrum.",
+   "Animer un sprint de bout en bout."
+  ],
+  "audience": [
+   "Chefs de projet, Product Owners, équipes de développement."
+  ],
+  "prerequisites": [
+   "Aucun prérequis."
+  ],
+  "program": [
+   {
+    "module": "Fondamentaux de l'agilité",
+    "items": [
+     "Manifeste agile",
+     "Cadres agiles (Scrum, Kanban)",
+     "État d'esprit agile"
+    ]
+   },
+   {
+    "module": "Rôles Scrum",
+    "items": [
+     "Product Owner",
+     "Scrum Master",
+     "Équipe de développement"
+    ]
+   },
+   {
+    "module": "Événements",
+    "items": [
+     "Sprint et planification",
+     "Daily, review, rétrospective",
+     "Time-boxing"
+    ]
+   },
+   {
+    "module": "Artefacts",
+    "items": [
+     "Product et Sprint Backlog",
+     "Incrément",
+     "Definition of Done"
+    ]
+   },
+   {
+    "module": "Mise en pratique",
+    "items": [
+     "Estimation et vélocité",
+     "Outils (Jira, Klaxoon)",
+     "Atelier de simulation"
+    ]
+   }
+  ],
+  "tools": [
+   "Jira",
+   "Klaxoon"
+  ],
+  "order": 16
+ }
+]
