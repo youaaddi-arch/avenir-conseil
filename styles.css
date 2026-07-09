@@ -507,6 +507,19 @@ img, svg { display: block; max-width: 100%; }
 .kpi span { color: var(--muted); }
 .kpi strong { font-family: "Sora", sans-serif; }
 
+/* ---------- Vision catalogue ---------- */
+.vgroup-h { font-family: "Sora", sans-serif; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin: 36px 0 12px; }
+.vgroup-h:first-of-type { margin-top: 8px; }
+.vtable { width: 100%; border-collapse: collapse; font-size: .96rem; }
+.vtable td { padding: 15px 12px; border-top: 1px solid var(--line); vertical-align: top; color: var(--ink-2); }
+.vtable tr:first-child td { border-top: 0; }
+.vtable .fam { width: 34%; font-weight: 600; color: var(--ink); }
+.vtag { display: inline-block; font-size: .62rem; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: .22em .5em; border-radius: 6px; margin: 4px 4px 0 0; border: 1px solid var(--line); color: var(--muted); }
+.vtag--new { color: #1e6f4c; background: rgba(30,111,76,.1); border-color: rgba(30,111,76,.25); }
+.vtag--exist { color: var(--gold-1); background: var(--paper-2); border-color: rgba(176,136,63,.3); }
+.vlegend { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.vtable-wrap { overflow-x: auto; }
+
 /* ---------- Image fallback ---------- */
 .net-img.is-failed { background: linear-gradient(135deg, #1c1f27, #2c2f38 60%, #3a2f17); }
 .net-img.is-failed { color: transparent; }
